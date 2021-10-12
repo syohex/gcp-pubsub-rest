@@ -9,7 +9,7 @@ cd cmd/publisher
 go run publisher.go \
   -topic=topic_name \
   -account=your_service_account_json_path \
-  -attr='{"name": "Tom"}'
+  -attr='{"name": "Tom"}' \
   'hello world'
 ```
 
